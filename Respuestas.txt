@@ -1,0 +1,10 @@
+2f) Una vez que se realizó el commit del archivo en el branch Opcion_2
+y se vuelve al branch main, dejó de aparecer el archivo tp2_1_2.c.
+Esto es casualmente porque ya pertenece a otra rama.
+
+Cuando se crea el archivo Respuestas.txt en el branch main, visualmente
+se ve en gitk como se separan la rama principal de las demás, ya que ahora tiene nuevos archivos.
+
+Después de realizar el merge se fusionan los archivos de la rama Opcion_2 a los que estaban
+en la rama main.
+ 
