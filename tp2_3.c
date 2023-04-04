@@ -7,7 +7,7 @@
 int main()
 {
     int i,j;
-    double * pmt = (double *) malloc(sizeof(double) *N*M);
+    double * pmt = (double *) malloc(sizeof(double *) *N*M);
 
     for (i=0;i<N;i++)
     {
@@ -18,5 +18,7 @@ int main()
         }
     }
 
+    free(pmt);
+    
     return 0;
 }
